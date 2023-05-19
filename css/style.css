@@ -1,0 +1,145 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    border: 1px solid #000;
+    height: auto;
+    width: 95%;
+    margin: 0 auto;
+}
+.header{
+    /* border: 1px solid #fce803; */
+    height: 200px;
+    width: 100%;
+    background-image: url("../images/anhbg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.menu{
+    /* border: 1px solid #03fc41; */
+    height: 50px;
+    width: 100%;
+    background:  #000;
+}
+ul.listmenu {
+    padding: 0;
+    list-style: none;
+    width: 90%;
+    margin: 0 auto;
+    line-height: 28px;
+}
+ul.listmenu li {
+    float: left;
+    margin: 0;
+    /* position: relative;
+    display: inline-block; */
+}
+ul.listmenu li:hover {
+    background: #CCCCCC;
+}
+ul.listmenu li:hover a {
+    color: #000;
+}
+ul.listmenu li a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 50px;
+    /* text-align: center; */
+    display: block;
+    text-transform: uppercase;
+    padding: 0 24px;
+}
+#main{
+    border: 1px solid #038cfc;
+    height: auto;
+    width: 100%;
+}
+.sidebar{
+    border: 1px solid #038cfc;
+    height: 390px;
+    width: 20%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+}
+ul.list_sidebar {
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    line-height: 28px;
+}
+ul.list_sidebar li {
+    margin: 0;
+}
+ul.list_sidebar li:hover {
+    background: #CCCCCC;
+}
+ul.list_sidebar li:hover a {
+    color: #000;
+}
+ul.list_sidebar li a {
+    color: #a83256;
+    text-decoration: none;
+    line-height: 50px;
+    /* text-align: center; */
+    display: block;
+    text-transform: uppercase;
+    padding: 0 24px;
+}
+.maincontent{
+    border: 1px solid #000;
+    height: auto;
+    width: 78%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: right;
+}
+ul.product_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+
+ul.product_list li a {
+    text-decoration: none;
+}
+ul.product_list li {
+    width: 23%;
+    margin: 5px;
+    border: 1px dashed #000;
+    float: left;
+    background: aquamarine;
+    /* height: 272px; */
+}
+ul.product_list li img {
+    width: 100%;
+}
+p.title_product{
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+p.price {
+    text-align: center;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.clear {
+    clear: both;
+}
+.footer{
+    border: 1px solid #fc037b;
+    height: 150px;
+    width: 100%;
+    background:  #89d2e0;
+}
+p.footer_copyright {
+    text-align: center;
+    color: #000;
+
+}
